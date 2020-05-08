@@ -1,0 +1,11 @@
+﻿/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #c4e17f 12.5%, #c4e17f 25%, #c4e17f 25%, #c4e17f 37.5%, #c4e17f 37.5%, #c4e17f 50%, #c4e17f 50%, #c4e17f 62.5%, #c4e17f 62.5%, #c4e17f 75%, #c4e17f 75%, #c4e17f 87.5%, #c4e17f 87.5%, #c4e17f);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #c4e17f 12.5%, #c4e17f 25%, #c4e17f 25%, #c4e17f 37.5%, #c4e17f 37.5%, #c4e17f 50%, #c4e17f 50%, #c4e17f 62.5%, #c4e17f 62.5%, #c4e17f 75%, #c4e17f 75%, #c4e17f 87.5%, #c4e17f 87.5%, #c4e17f);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #c4e17f 12.5%, #c4e17f 25%, #c4e17f 25%, #c4e17f 37.5%, #c4e17f 37.5%, #c4e17f 50%, #c4e17f 50%, #c4e17f 62.5%, #c4e17f 62.5%, #c4e17f 75%, #c4e17f 75%, #c4e17f 87.5%, #c4e17f 87.5%, #c4e17f);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #c4e17f 12.5%, #c4e17f 25%, #c4e17f 25%, #c4e17f 37.5%, #c4e17f 37.5%, #c4e17f 50%, #c4e17f 50%, #c4e17f 62.5%, #c4e17f 62.5%, #c4e17f 75%, #c4e17f 75%, #c4e17f 87.5%, #c4e17f 87.5%, #c4e17f);
+}

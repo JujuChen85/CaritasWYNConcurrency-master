@@ -1,0 +1,41 @@
+﻿@model CaritasWYN.Models.Staff
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="jumbotron">
+    <div class="d-flex justify-content-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Staff Info</h1>
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <dl class="row">
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.FirstName)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.FirstName)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.LastName)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.LastName)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.JobDuty)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.JobDuty.JobType)
+                    </dd>
+                </dl>
+                <hr />
+                <a asp-action="Edit" asp-route-id="@Model.StaffId" class="btn btn-primary">Edit</a>
+                <a asp-action="Index" class="btn btn-outline-primary">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
